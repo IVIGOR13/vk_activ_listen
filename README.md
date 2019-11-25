@@ -15,6 +15,7 @@ $ git clone https://github.com/IVIGOR13/vk_activ_listen.git
 $ pip install beautifulsoup4
 $ pip install lxml
 $ pip install re
+$ pip install plotly
 ```
 
 В файл objects.txt занесите идентификаторы пользователей из URL адреса
@@ -22,5 +23,10 @@ $ pip install re
 ## Запуск
 ```
 $ cd vk_activ_listen
+$ python vk_activ_listen.py
+```
+
+Когда вас устроит объем собранны данных в файл data.csv введите команду "exit" чтобы прослушивание закрылось, и запустите скрипт визуализации vizual_data.py
+```
 $ python vk_activ_listen.py
 ```

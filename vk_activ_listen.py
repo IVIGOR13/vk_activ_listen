@@ -129,9 +129,7 @@ class Storage:
 
 if __name__ == "__main__":
     st = Storage()
-    st.write_csv('1', '2', '3')
-    st.write_csv('2', '3', '4')
-    st.write_csv('3', '4', '5')
+    
     l = Listener()
     l.start()
 

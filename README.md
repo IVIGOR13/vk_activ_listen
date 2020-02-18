@@ -26,7 +26,7 @@ $ cd vk_activ_listen
 $ python vk_activ_listen.py
 ```
 
-Когда вас устроит объем собранны данных в файл activity.csv введите команду "exit" чтобы прослушивание закрылось, и запустите скрипт визуализации vizual_data.py
+Когда вас устроит объем собранных данных в файл activity.csv введите команду "exit" чтобы прослушивание завершилось, и запустите скрипт визуализации vizual_data.py (советую открывать в Jupyter или Colaboratory)
 ```
 $ python vk_activ_listen.py
 ```
